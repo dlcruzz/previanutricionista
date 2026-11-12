@@ -95,6 +95,7 @@
   heroTl
     .fromTo(frame, { clipPath: startClip }, { clipPath: endClip, ease: 'power2.inOut', duration: 1 }, 0)
     .fromTo(heroImg, { scale: 1.3 }, { scale: 1, ease: 'power2.inOut', duration: 1 }, 0)
+    .fromTo('#heroFrame picture', { xPercent: () => (mobile() ? -9 : -16) }, { xPercent: 0, ease: 'power2.inOut', duration: 1 }, 0)
     .to('.ht-l1, .ht-l2', { xPercent: -60, autoAlpha: 0, ease: 'power2.in', duration: 0.6, stagger: 0.05 }, 0.05)
     .to('.ht-l3, .ht-l4', { xPercent: 60, autoAlpha: 0, ease: 'power2.in', duration: 0.6, stagger: 0.05 }, 0.05)
     .to(['.hero-kicker', '#heroScroll'], { autoAlpha: 0, duration: 0.2 }, 0)
