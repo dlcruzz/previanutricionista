@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>JC Clinic · Nutrologia & Nutrição em Mossoró</title>
+<meta name="description" content="JC Clinic, Mossoró/RN. Dr. Jacson Alex (médico nutrólogo) e Dra. Camila Fontes (nutricionista) num único protocolo de emagrecimento, hipertrofia e performance.">
+<meta property="og:title" content="JC Clinic · Medicina & Performance">
+<meta property="og:description" content="Um médico e uma nutricionista. Um único protocolo. Agende sua consulta em Mossoró.">
+<meta property="og:image" content="img/og.jpg">
+<meta name="theme-color" content="#0d0c0a">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" href="img/dupla-hero.webp" as="image" type="image/webp">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-mark">JC</div>
+  <div class="loader-bar"><span id="loaderBar"></span></div>
+  <div class="loader-num"><span id="loaderNum">0</span>%</div>
+</div>
+
+<div class="cursor" id="cursor" aria-hidden="true"><span>ver</span></div>
+
+<header class="top" id="top">
+  <a class="brand" href="#inicio" aria-label="JC Clinic, início">
+    <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="18.5"/><path d="M16 11v13.5a4.5 4.5 0 0 1-8 2.8"/><path d="M32 14.5a8 8 0 1 0 0 11"/></svg>
+    <span><b>JC Clinic</b><small>Medicina &amp; Performance</small></span>
+  </a>
+  <nav class="nav" id="nav" aria-label="Menu principal">
+    <a href="#dupla">A dupla</a>
+    <a href="#especialidades">Especialidades</a>
+    <a href="#metodo">Método</a>
+    <a href="#resultados">Resultados</a>
+    <a href="#clinica">A clínica</a>
+  </nav>
+  <a class="btn btn-gold btn-sm" href="https://wa.me/5584981693927?text=Ol%C3%A1%2C%20JC%20Clinic!%20Quero%20agendar%20uma%20consulta." target="_blank" rel="noopener">Agendar</a>
+  <button class="burger" id="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+</header>
+
+<main>
+
+<!-- HERO: a foto nasce como um quadro e se abre até tomar a tela -->
+<section class="hero" id="inicio">
+  <div class="hero-stage">
+    <p class="hero-kicker reveal-up">Nutrologia + Nutrição · Mossoró/RN</p>
+    <h1 class="hero-title" aria-label="A ciência do corpo que você quer construir">
+      <span class="ht-line ht-l1"><span>A ciência</span></span>
+      <span class="ht-line ht-l2"><span>do <em>corpo</em></span></span>
+      <span class="ht-line ht-l3"><span>que você quer</span></span>
+      <span class="ht-line ht-l4"><span><em>construir.</em></span></span>
+    </h1>
+
+    <div class="hero-tilt" id="heroTilt">
+      <div class="hero-frame" id="heroFrame">
+        <picture>
+          <source media="(max-width: 700px)" srcset="img/dupla-hero-sm.webp">
+          <img id="heroImg" src="img/dupla-hero.webp" alt="Dr. Jacson Alex e Dra. Camila Fontes no consultório da JC Clinic" width="1600" height="2397">
+        </picture>
+        <div class="hero-shade"></div>
+        <div class="hero-over" id="heroOver">
+          <p class="eyebrow">Dr. Jacson Alex &amp; Dra. Camila Fontes</p>
+          <p class="hero-over-title">Um médico. Uma nutricionista.<br><em>Um único protocolo.</em></p>
+          <div class="hero-ctas">
+            <a class="btn btn-gold" href="https://wa.me/5584981693927?text=Ol%C3%A1%2C%20JC%20Clinic!%20Quero%20come%C3%A7ar%20minha%20transforma%C3%A7%C3%A3o." target="_blank" rel="noopener">Começar minha transformação <i aria-hidden="true">→</i></a>
+            <a class="btn btn-ghost" href="#especialidades">Ver especialidades</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll" id="heroScroll"><span></span>Role para abrir</div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Emagrecimento estratégico</span><b>✦</b><span>Hipertrofia</span><b>✦</b><span>Performance esportiva</span><b>✦</b><span>Equilíbrio hormonal</span><b>✦</b><span>Bioimpedância</span><b>✦</b><span>Nutrição de precisão</span><b>✦</b>
+    <span>Emagrecimento estratégico</span><b>✦</b><span>Hipertrofia</span><b>✦</b><span>Performance esportiva</span><b>✦</b><span>Equilíbrio hormonal</span><b>✦</b><span>Bioimpedância</span><b>✦</b><span>Nutrição de precisão</span><b>✦</b>
+  </div>
+</div>
+
+<!-- DUPLA -->
+<section class="dupla light" id="dupla">
+  <div class="wrap dupla-grid">
+    <div class="dupla-text">
+      <p class="eyebrow dark">Os especialistas</p>
+      <h2 class="h2 split">Dois olhares sobre o mesmo corpo. <em>Nenhuma lacuna</em> entre eles.</h2>
+      <p class="lead">Na maioria das clínicas, o médico pede exame num dia e a dieta chega de outro profissional, semanas depois. Aqui, o Dr. Jacson e a Dra. Camila montam o seu plano juntos, na mesma mesa, a partir dos mesmos dados.</p>
+
+      <div class="docs">
+        <article class="doc">
+          <span class="doc-n">01</span>
+          <h3>Dr. Jacson Alex</h3>
+          <p class="doc-role">Médico nutrólogo · CRM-RN 10245</p>
+          <p>Especialista em obesidade e performance. Diagnóstico metabólico, exames, modulação hormonal e, quando indicado, tratamento medicamentoso.</p>
+        </article>
+        <article class="doc">
+          <span class="doc-n">02</span>
+          <h3>Dra. Camila Fontes</h3>
+          <p class="doc-role">Nutricionista clínica e esportiva</p>
+          <p>Transforma o diagnóstico em comida de verdade: plano alimentar, suplementação e estratégias que cabem na sua rotina.</p>
+        </article>
+      </div>
+    </div>
+    <figure class="dupla-photo" data-cursor>
+      <div class="zoom-wrap"><img class="zoom-img" src="img/dupla-retrato.webp" alt="Dr. Jacson Alex e Dra. Camila Fontes" width="1300" height="1427" loading="lazy"></div>
+      <figcaption><span>JC</span> Jacson &amp; Camila</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ESPECIALIDADES: trilho horizontal em perspectiva -->
+<section class="esp" id="especialidades">
+  <div class="esp-pin">
+    <div class="esp-head wrap">
+      <p class="eyebrow">Especialidades</p>
+      <h2 class="h2">Quatro frentes.<br><em>Um objetivo:</em> o seu.</h2>
+    </div>
+    <div class="esp-track" id="espTrack">
+      <article class="card3d">
+        <div class="card-in">
+          <span class="card-n">01</span>
+          <h3>Emagrecimento<br><em>estratégico</em></h3>
+          <p>Tratamento médico e nutricional da obesidade, preservando a massa magra e regulando o metabolismo para o peso não voltar.</p>
+          <span class="card-tag">Nutrologia + Nutrição</span>
+        </div>
+      </article>
+      <article class="card3d">
+        <div class="card-in">
+          <span class="card-n">02</span>
+          <h3>Hipertrofia<br><em>&amp; definição</em></h3>
+          <p>Protocolos de ganho de massa muscular com ajuste fino de calorias, proteína, suplementação e treino.</p>
+          <span class="card-tag">Composição corporal</span>
+        </div>
+      </article>
+      <article class="card3d">
+        <div class="card-in">
+          <span class="card-n">03</span>
+          <h3>Performance<br><em>esportiva</em></h3>
+          <p>Para atletas e para quem treina sério: energia, recuperação e rendimento acompanhados de perto.</p>
+          <span class="card-tag">Medicina esportiva</span>
+        </div>
+      </article>
+      <article class="card3d">
+        <div class="card-in">
+          <span class="card-n">04</span>
+          <h3>Equilíbrio<br><em>hormonal</em></h3>
+          <p>Avaliação e modulação hormonal masculina e feminina para devolver disposição, sono e vitalidade.</p>
+          <span class="card-tag">Saúde integral</span>
+        </div>
+      </article>
+      <article class="card3d card-cta">
+        <div class="card-in">
+          <span class="card-n">→</span>
+          <h3>Não sabe por<br><em>onde começar?</em></h3>
+          <p>Na primeira consulta a gente descobre juntos. Chama no WhatsApp.</p>
+          <a class="btn btn-dark" href="https://wa.me/5584981693927?text=Ol%C3%A1%2C%20JC%20Clinic!%20Quero%20entender%20qual%20tratamento%20%C3%A9%20o%20ideal%20para%20mim." target="_blank" rel="noopener">Falar agora</a>
+        </div>
+      </article>
+    </div>
+    <div class="esp-progress"><span id="espBar"></span></div>
+  </div>
+</section>
+
+<!-- MÉTODO -->
+<section class="metodo light" id="metodo">
+  <div class="wrap metodo-grid">
+    <div class="metodo-side">
+      <p class="eyebrow dark">O caminho</p>
+      <h2 class="h2">Sem fórmula mágica. <em>Com método.</em></h2>
+      <div class="metodo-counter" aria-hidden="true"><span id="stepNum">01</span><small>/04</small></div>
+      <blockquote class="metodo-quote">“Seguindo o processo, o resultado vem!”<cite>Johnata Raphael, paciente</cite></blockquote>
+    </div>
+    <ol class="steps">
+      <li class="step" data-step="01">
+        <h3>Consulta integrada</h3>
+        <p>Avaliação clínica com o Dr. Jacson e planejamento nutricional com a Dra. Camila. Entendemos rotina, histórico e o que você quer de verdade.</p>
+      </li>
+      <li class="step" data-step="02">
+        <h3>Bioimpedância &amp; exames</h3>
+        <p>Composição corporal medida com precisão e exames laboratoriais para mapear o seu metabolismo. Nada no achismo.</p>
+      </li>
+      <li class="step" data-step="03">
+        <h3>Protocolo personalizado</h3>
+        <p>Plano alimentar, suplementação e, se for necessário, intervenção medicamentosa. Tudo desenhado para o seu corpo.</p>
+      </li>
+      <li class="step" data-step="04">
+        <h3>Acompanhamento contínuo</h3>
+        <p>Ajustes conforme a evolução, para você chegar ao objetivo e, principalmente, ficar nele.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- NÚMEROS -->
+<section class="nums">
+  <div class="wrap nums-grid">
+    <div class="num"><b data-count="5" data-dec="1">0</b><span>nota no Google</span></div>
+    <div class="num"><b data-count="35" data-suffix="+">0</b><span>avaliações 5 estrelas</span></div>
+    <div class="num"><b data-count="8.4" data-dec="1" data-suffix="k">0</b><span>seguidores no Instagram</span></div>
+    <div class="num"><b data-count="360" data-suffix="°">0</b><span>de acompanhamento</span></div>
+  </div>
+</section>
+
+<!-- RESULTADOS: a imagem levanta da mesa em 3D -->
+<section class="result" id="resultados">
+  <div class="result-pin">
+    <p class="result-big" aria-hidden="true"><span>−27</span><em>kg</em></p>
+    <div class="result-3d" id="result3d">
+      <img src="img/resultado.webp" alt="Antes e depois de paciente da JC Clinic, menos 27 quilos" width="1000" height="1250" loading="lazy">
+    </div>
+    <div class="result-copy">
+      <p class="eyebrow">Transformação real</p>
+      <p class="result-text">Menos 27 quilos. <em>E uma nova relação com o próprio corpo.</em></p>
+      <small>Resultados individuais variam conforme cada organismo e adesão ao tratamento.</small>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="depo light">
+  <div class="wrap">
+    <div class="depo-head">
+      <p class="eyebrow dark">Quem já passou por aqui</p>
+      <h2 class="h2"><span class="stars" aria-label="5 estrelas">★★★★★</span> 5,0 no Google.</h2>
+    </div>
+    <div class="depo-grid">
+      <figure class="quote tilt">
+        <blockquote>“Ótimo atendimento, profissionais perfeitos. A atenção aos detalhes na JC Clinic é diferenciada.”</blockquote>
+        <figcaption><span>N</span>Nayara Érica Silva</figcaption>
+      </figure>
+      <figure class="quote tilt">
+        <blockquote>“São bem prestativos e responsáveis com o paciente. O acompanhamento é realmente de perto.”</blockquote>
+        <figcaption><span>R</span>Ramon Nobre</figcaption>
+      </figure>
+      <figure class="quote tilt">
+        <blockquote>“Seguindo o processo o resultado vem! A sinergia entre o médico e a nutri faz toda a diferença.”</blockquote>
+        <figcaption><span>J</span>Johnata Raphael</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- CLÍNICA -->
+<section class="clinica" id="clinica">
+  <div class="wrap clinica-grid">
+    <figure class="clinica-photo" data-cursor>
+      <div class="zoom-wrap"><img class="zoom-img" src="img/recepcao.webp" alt="Recepção da JC Clinic no Kikos Mall, Mossoró" width="1071" height="1428" loading="lazy"></div>
+    </figure>
+    <div class="clinica-info">
+      <p class="eyebrow">A clínica</p>
+      <h2 class="h2">Um espaço feito para você <em>se sentir em casa</em> desde a recepção.</h2>
+      <dl class="info">
+        <div><dt>Endereço</dt><dd>Kikos Mall · Av. João da Escóssia, 259, Sala 04<br>Nova Betânia, Mossoró/RN · 59607-330</dd></div>
+        <div><dt>Horários</dt><dd>Segunda a sexta, 08h às 17h<br>Atendimento com hora marcada</dd></div>
+        <div><dt>Convênios</dt><dd>Atendimento particular, com nota fiscal para pedir reembolso ao seu plano.</dd></div>
+      </dl>
+      <a class="link-arrow" href="https://www.google.com/maps/search/?api=1&query=Kikos+Mall+Av.+Jo%C3%A3o+da+Esc%C3%B3ssia+259+Mossor%C3%B3" target="_blank" rel="noopener">Abrir no mapa <i aria-hidden="true">↗</i></a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq light" id="duvidas">
+  <div class="wrap faq-grid">
+    <div>
+      <p class="eyebrow dark">Dúvidas</p>
+      <h2 class="h2">Antes de <em>agendar.</em></h2>
+    </div>
+    <div class="faq-list">
+      <details>
+        <summary>Qual a diferença entre nutrólogo e nutricionista?<i></i></summary>
+        <p>O nutrólogo é médico: diagnostica e trata doenças ligadas ao metabolismo e aos nutrientes, e pode prescrever medicamentos. A nutricionista elabora o plano alimentar e as estratégias de dieta. Na JC Clinic, os dois trabalham no mesmo protocolo.</p>
+      </details>
+      <details>
+        <summary>A clínica atende convênios?<i></i></summary>
+        <p>Os atendimentos são particulares, para garantir o tempo e a profundidade que cada caso pede. Emitimos nota fiscal para você solicitar reembolso ao seu plano de saúde.</p>
+      </details>
+      <details>
+        <summary>Preciso ser atleta para consultar?<i></i></summary>
+        <p>De jeito nenhum. Atendemos desde quem está começando e busca saúde e emagrecimento até atletas de alto rendimento. O plano parte do seu nível atual.</p>
+      </details>
+      <details>
+        <summary>Como faço para agendar?<i></i></summary>
+        <p>Pelo WhatsApp (84) 98169-3927. A equipe confirma o melhor horário para a sua consulta integrada.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="final" id="agendar">
+  <div class="final-glow" aria-hidden="true"></div>
+  <div class="wrap final-in">
+    <p class="eyebrow">Mossoró · RN</p>
+    <h2 class="final-title"><span>Sua melhor versão</span><span>começa com uma <em>decisão.</em></span></h2>
+    <a class="btn btn-gold btn-xl magnetic" href="https://wa.me/5584981693927?text=Ol%C3%A1%2C%20JC%20Clinic!%20Quero%20agendar%20minha%20consulta." target="_blank" rel="noopener">Agendar pelo WhatsApp <i aria-hidden="true">→</i></a>
+    <a class="link-arrow" href="https://www.instagram.com/drjacsondracamila" target="_blank" rel="noopener">@drjacsondracamila <i aria-hidden="true">↗</i></a>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p class="foot-brand">JC Clinic</p>
+    <p>Nutrologia, medicina esportiva e nutrição clínica em Mossoró/RN.<br>Responsável técnico: Dr. Jacson Alex · CRM-RN 10245</p>
+    <p class="foot-small">© 2026 JC Clinic · Prévia desenvolvida por <a href="https://zinkra.com.br" target="_blank" rel="noopener">Zinkra</a></p>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/5584981693927?text=Ol%C3%A1%2C%20JC%20Clinic!%20Quero%20agendar%20uma%20consulta." target="_blank" rel="noopener" aria-label="Agendar pelo WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.1c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3.1s.8-2.2 1.1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.1.1.3 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.1.1.7-.1 1.4Z"/></svg>
+</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
